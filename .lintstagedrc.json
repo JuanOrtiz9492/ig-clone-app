@@ -1,0 +1,11 @@
+{
+  "*.+(js|jsx)": [
+    "prettier --write",
+    "yarn lint",
+    "git add"
+  ],
+  "*.+(json|css|md)": [
+    "prettier --write",
+    "git add"
+  ]
+}
